@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 135px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+/*Estilos del header*/
+
+header{
+    height: 150px;
+    background: rgb(51,51,51);
+background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 49%, rgba(0,0,0,1) 82%);
+
+}
+
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main img{
+    max-width: 80%;
+}
+.logo , .icon-menu {
+    margin:5px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: rgb(112, 64, 58);
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.nav{
+    position: absolute;
+    top: 150px;
+    left: -100%;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.3s;
+
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    
+}
+
+.menu__link{
+    display: block;
+    padding: 15px;
+    background: rgb(51,51,51);
+    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 49%, rgba(0,0,0,1) 82%);
+    color: #fff;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+}
+
+.menu__link:hover{
+    background: #fff;
+    color: #000;
+
+}
+
+.muestrate {
+    left: 0;
+}
+
+/*--------------------------Estilo de banner-----------------------*/
+
+.banner img {
+    width: 100%;
+}
+.banner {
+    position: relative;
+
+}
+
+.banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+/*--------------------------Estilo de Info-----------------------*/
+
+.info {
+    background: rgb(51,51,51);
+    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 49%, rgba(0,0,0,1) 82%);
+    color: #fff;
+    text-align: center ;
+    margin-top: -50px;
+}
+
+.info__img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #444;
+    position: relative;
+}
+
+.info__txt{
+    text-align: justify;
+    padding: 15px;
+}
+
+/*--------------------------Estilo de Platos-----------------------*/
+
+.platos {
+    background: rgb(51,51,51);
+    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 49%, rgba(0,0,0,1) 82%);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.platos h3 {
+    font-size: 30px;
+}
+
+.platos .platos__titulo {
+    font-size: 40px;
+}
+
+.platos .platos__txt {
+    text-align: justify;
+    padding: 15px;
+}
+
+.platos__img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+.footer {
+    background: rgb(51,51,51);
+    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 49%, rgba(0,0,0,1) 82%);
+}
